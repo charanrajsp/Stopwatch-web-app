@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      
+      <span>Stopwatch</span>
+    </div>
+   <!--  <div class="icon">
+      <i class="fas fa-stopwatch"></i> Stopwatch Icon -->
+    </div>
+  </nav>
+    
+    
+
+  <div class="container">
+    <div class="icon">
+        <i class="fas fa-stopwatch"></i> <!-- Stopwatch Icon -->
+      </div>
+    <h1>Stopwatch</h1>
+    <div class="stopwatch">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+    </div>
+    <div class="label1"><label>Hour</label>
+        <label>minutes</label>
+        <label>Seconds</label>
+        <label>milliseconds</label></div>
+    
+    <div class="buttons">
+       
+      <button id="play-pause" class="btn animated"><i class="fas fa-play"></i></button>
+      <button id="reset" class="btn animated"><i class="fas fa-redo"></i></button>
+      <button id="add-timer" class="btn animated"><i class="fas fa-plus"></i></button>
+      
+    </div>
+    <div class="label"><label>Start/Stop</label>
+        <label>Reset</label>
+        <label>Save</label></div>
+
+    <div id="timers-list"><ol></ol></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
